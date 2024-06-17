@@ -1,0 +1,28 @@
+Consigna Actualizada: Sistema de Reservas de Vuelos en Línea
+.Diseña un sistema de reservas de vuelos en línea que permita a los usuarios seleccionar el número de pasajes que desean comprar, junto con otras opciones como el destino, la fecha de viaje y la clase de vuelo. El sistema debe calcular el precio total de los pasajes, incluido el IVA, y mostrar un resumen de la reserva. 
+Requerimientos:
+.Destinos Disponibles: El usuario debe poder elegir entre 5 destinos diferentes representados por un caracter. El sistema debe registrar cuántas veces se selecciona cada destino y, al finalizar las reservas, mostrar el destino más elegido.
+. 'A' : Nueva York
+. 'B' : Londres
+. 'C' : París
+. 'D' : Tokio
+. 'E' : Sídney
+. Clases de Vuelo: El usuario puede seleccionar entre tres clases de vuelo: Económica ('E'), Ejecutiva ('C') y Primera Clase ('P'). Al finalizar las reservas, mostrar la clase de vuelo menos elegida.
+. Económica('E'): $100 por pasaje
+. Ejecutiva ('C'): $200 por pasaje
+. Primera Clase ('P'): $300 por pasaje
+. Reserva de Pasajes: El usuario debe poder agregar múltiples pasajes a su reserva. Debe haber una opción para que el usuario decida si desea agregar otro pasaje o finalizar la reserva.
+. Cálculos Requeridos: Función que toma como entrada la clase de vuelo seleccionada y devuelve el precio por pasaje correspondiente.
+. Función para calcular precio sin iva:
+. Calcula el monto del iva.
+. Función para calcular el total del precio con iva.
+. Resumen de la Reserva:
+. Al finalizar la carga de pasajes, mostrar un resumen detallado de la reserva que incluya:
+. Destino elegido.
+. Fecha de viaje: (representada como una cadena de texto en el formato "YYYY -MM- DD"
+. Clase de vuelo.
+. Cantidad de pasajes.
+. Precio por pasaje.
+. Total, sin IVA.
+. IVA aplicado.
+. Total, con IVA.
