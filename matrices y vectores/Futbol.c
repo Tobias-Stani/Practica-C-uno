@@ -40,7 +40,7 @@ void cargarGoles(int goles[MAX_JUGADORES][MAX_PARTIDOS]) {
 }
 
 void mostrarGoles(int goles[MAX_JUGADORES][MAX_PARTIDOS]) {
-    printf("\nCantidad de goles por camiseta y partido:\n");
+    printf("\nCantidad de goles por camiseta y partido:\n\n");
     printf("Partido\t");
     for (int j = 1; j <= MAX_PARTIDOS; j++) {
         printf("%d\t", j);
