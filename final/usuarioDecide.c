@@ -5,7 +5,7 @@
 #define MAX 1
 
 void limpiarPantalla();
-void ();
+void limpiarBuffer();
 
 int main() {
     char continuar = 's';
