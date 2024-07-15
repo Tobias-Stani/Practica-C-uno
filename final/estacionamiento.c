@@ -124,13 +124,6 @@ void generarInforme(char patentes[MAX][MAX_CADENA], char vehiculo[], int tiempo[
 
     printf("El monto total del dia fue de: $%d\n", acumuladorDinero);
 
-        if (vehiculo[i] == 'C' || vehiculo[i] == 'c') {
-
-            printf("el menor gasto de una camioneta fue de %d");
-
-        } 
-
-        printf("El menor gasto de una camioneta fue de: $%d\n", gastoMenor);
-
+    printf("El menor gasto de una camioneta fue de: $%d\n", gastoMenor);
 
 }
