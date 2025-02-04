@@ -24,6 +24,8 @@ int main(){
 
     printf("///////////////////////// con valores invertidos //////////////////// \n");
 
+// se guarda en la variable temporal, ya que si asignamos a = b, b ya modifico su valor. 
+
     temp = a;
     a = b;
     b = temp;
