@@ -12,7 +12,7 @@ int main() {
 
     if (codigo == 0) {
         printf("No se ingresaron productos.\n");
-        return 0;  // Termina el programa si no hay datos
+        return 0; 
     }
 
     do {
