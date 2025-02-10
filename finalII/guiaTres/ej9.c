@@ -9,11 +9,12 @@
 
 #include <stdio.h>
 
-void calcularSueldo(int horas, int antiguedad, int categoria);
+int calcularSueldo(int horas, int antiguedad, int categoria);
+void esMayor(int sueldo);
 
 int main () {
 
-    int horas, antiguedad, categoria;
+    int horas, antiguedad, categoria, sueldo;
 
     printf("Ingrese las horas trabajadas: ");
     scanf("%d", &horas);
@@ -24,12 +25,47 @@ int main () {
     printf("Ingrese la categoria: CAT  ");
     scanf("%d", &categoria);
 
-    calcularSueldo(horas, antiguedad, categoria);
+    sueldo = calcularSueldo(horas, antiguedad, categoria);
+
+    printf("El sueldo es: %d\n", sueldo);
+
+    esMayor(sueldo);
 
     return 0;
 
 }
 
-void calcularSueldo (int h, int a, int c) {
+int calcularSueldo (int h, int a, int c) {
+
+    int sueldo;
+
+    if (c == 1)
+    {
+        sueldo = h * 10;
+    } else if (c == 2)
+    {
+        sueldo = h * 20;
+    } else if (c == 3)
+    {
+        sueldo = h * 25;
+
+    } else if (c == 4)
+    {
+        sueldo = h * 30;
+
+    }
+    
+    sueldo += a * 50;
+
+    return sueldo;
+
+}
+
+void esMayor(int sueldo){
+
+    if (sueldo > 1000)
+    {
+        printf("El sueldo supera los $1000");
+    } 
 
 }
