@@ -1,6 +1,8 @@
 //Rellene un array con los números pares comprendidos entre 1 y 100 y muéstrelos en 
 //pantalla en orden ascendente.
 
+#include <stdio.h>
+
 int main () {
 
     int arr[50], index = 0;
