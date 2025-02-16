@@ -37,7 +37,7 @@ int obtenerMinimo(int arr[], int tam){
 
 int main() {
 
-    int numeros[5], i, maximo, minimo, par;
+    int numeros[5], i, maximo, minimo;
 
     printf("Ingrese 5 numeros: \n");
     for (i = 0; i < 5; i++)
