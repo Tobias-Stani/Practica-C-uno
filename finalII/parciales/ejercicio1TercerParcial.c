@@ -37,7 +37,7 @@ void mostrarDatos(int matriz[JUGADORES][COLUMNAS]) {
 int main() {
     int datos[JUGADORES][COLUMNAS];
 
-    cargarDatos(datos);  /
+    cargarDatos(datos);  
     mostrarDatos(datos); 
 
     return 0;
