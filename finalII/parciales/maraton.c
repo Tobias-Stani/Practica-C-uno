@@ -4,8 +4,7 @@
 
 void ingresarDatos(int *numero, char *categoria, int *numRegistros){
     int opcion;
-
-    // Verifica que no se haya llegado al límite de registros
+    
     if (*numRegistros >= TAM) {
         printf("\nNo se pueden ingresar más registros.\n");
         return;
